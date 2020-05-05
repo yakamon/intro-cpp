@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "C: compile and run",
+      "type": "shell",
+      "command": "make",
+      "args": ["-s", "C=${relativeFile}"],
+      "problemMatcher": ["$gcc"],
+      "group": { "kind": "build", "isDefault": true }
+    }
+  ]
+}
