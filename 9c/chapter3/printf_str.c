@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// 文字列を出力する
 int main(void)
 {
     printf("Hello, world!\n");
