@@ -5,7 +5,7 @@
       "label": "C: compile and run",
       "type": "shell",
       "command": "make",
-      "args": ["-s", "C=${relativeFile}"],
+      "args": ["-s", "-k", "C=${relativeFile}"],
       "problemMatcher": ["$gcc"],
       "group": { "kind": "build", "isDefault": true }
     }
